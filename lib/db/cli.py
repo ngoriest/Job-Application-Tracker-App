@@ -15,7 +15,7 @@ def create_initial_admin():
         admin = User(
             username="admin",
             email="admin@example.com",
-            password="admin123"  # In production, use hashed passwords!
+            password="admin123" 
         )
         session.add(admin)
         session.commit()
